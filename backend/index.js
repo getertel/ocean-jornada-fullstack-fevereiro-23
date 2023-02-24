@@ -86,10 +86,10 @@ async function main() {
 
     res.send("Registro removido com sucesso!");
   });
-  const port = process.env.PORT || 3000;	
-  app.listen(port, function(){console.log("Servidor rodandona porta: + port);	
- }); 	
- app.listen(3000);
+    const port = process.env.PORT || 3000;	
+  app.listen(port, function(){console.log("Servidor rodandona porta: + port);
+
+}); app.listen(3000);
 }
 
 main();
